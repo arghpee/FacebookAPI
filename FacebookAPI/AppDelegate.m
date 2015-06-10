@@ -7,9 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import <FBSDKCoreKit/FBSDKCoreKit.h>
-#import <FBSDKCoreKit/FBSDKCoreKit.h>
-#import <FBSDKLoginKit/FBSDKLoginKit.h>
 
 @interface AppDelegate ()
 
@@ -26,6 +23,7 @@
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
     [self.window setRootViewController:self.navigationController];
     [self.window makeKeyAndVisible];
+    [FBSDKLoginButton class];
     return [[FBSDKApplicationDelegate sharedInstance] application:application
                                     didFinishLaunchingWithOptions:launchOptions];
 }

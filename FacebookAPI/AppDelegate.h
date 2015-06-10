@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "ViewController.h"
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKShareKit/FBSDKShareKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate> {
     ViewController *viewController;
